@@ -11,7 +11,6 @@ you have <%= pluralize(@notes.size,"diary")%> found<br>
 						<td>
 								<%=link_to("view",:action => "detail",:id => note.id)%>
 								<%=link_to("update",:action => "update",:id => note.id)%>
-								<!--<%=link_to("delete",:action => "delete",:id => note.id)%>-->
 								<span style="cursor:pointer;color:blue" onclick="deleteNote(<%= note.id%>)">delete<span>
 						</td>
 				</tr>

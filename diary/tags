@@ -1,0 +1,160 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+Ajax.InPlaceCollectionEditor.DefaultOptions.loadingCollectionText	public/javascripts/controls.js	/^Ajax.InPlaceCollectionEditor.DefaultOptions = {$/;"	p
+Ajax.InPlaceEditor	public/javascripts/controls.js	/^});$/;"	c
+Ajax.InPlaceEditor.initialize	public/javascripts/controls.js	/^Ajax.InPlaceEditor.prototype.initialize.dealWithDeprecatedOptions = function(options) {$/;"	m
+AlertNote	db/migrate/20140710094705_alert_note.rb	/^class AlertNote < ActiveRecord::Migration$/;"	c
+AlertNote1	db/migrate/20140711074957_alert_note1.rb	/^class AlertNote1 < ActiveRecord::Migration$/;"	c
+AlertUser	db/migrate/20140711032748_alert_user.rb	/^class AlertUser < ActiveRecord::Migration$/;"	c
+AlertUser2	db/migrate/20140709102743_alert_user2.rb	/^class AlertUser2 < ActiveRecord::Migration$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Diary
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+Autocompleter.Base	public/javascripts/controls.js	/^});$/;"	c
+Autocompleter.Base.getTokenBounds	public/javascripts/controls.js	/^Autocompleter.Base.prototype.getTokenBounds.getFirstDifferencePos = function(newS, oldS) {$/;"	m
+BrowsingTest	test/performance/browsing_test.rb	/^class BrowsingTest < ActionDispatch::PerformanceTest$/;"	c
+Diary	config/application.rb	/^module Diary$/;"	m
+Draggable	public/javascripts/dragdrop.js	/^var Draggable = Class.create({$/;"	v
+Draggables.drags	public/javascripts/dragdrop.js	/^var Draggables = {$/;"	p
+Droppables.drops	public/javascripts/dragdrop.js	/^var Droppables = {$/;"	p
+Effect.Appear	public/javascripts/effects.js	/^};$/;"	f
+Effect.BlindDown	public/javascripts/effects.js	/^};$/;"	f
+Effect.BlindUp	public/javascripts/effects.js	/^};$/;"	f
+Effect.DropOut	public/javascripts/effects.js	/^};$/;"	f
+Effect.DropOut.oldStyle.top	public/javascripts/effects.js	/^  var oldStyle = {$/;"	p
+Effect.Fade	public/javascripts/effects.js	/^};$/;"	f
+Effect.Fold	public/javascripts/effects.js	/^};$/;"	f
+Effect.Fold.oldStyle.top	public/javascripts/effects.js	/^  var oldStyle = {$/;"	p
+Effect.Grow	public/javascripts/effects.js	/^};$/;"	f
+Effect.Grow.oldStyle.top	public/javascripts/effects.js	/^  var oldStyle = {$/;"	p
+Effect.Methods.highlight	public/javascripts/effects.js	/^  },$/;"	m
+Effect.Methods.morph	public/javascripts/effects.js	/^Effect.Methods = {$/;"	m
+Effect.Methods.visualEffect	public/javascripts/effects.js	/^  },$/;"	m
+Effect.MoveBy	public/javascripts/effects.js	/^});$/;"	f
+Effect.Puff	public/javascripts/effects.js	/^};$/;"	f
+Effect.Puff.oldStyle.opacity	public/javascripts/effects.js	/^  var oldStyle = {$/;"	p
+Effect.Pulsate	public/javascripts/effects.js	/^};$/;"	f
+Effect.Queues.instances	public/javascripts/effects.js	/^Effect.Queues = {$/;"	p
+Effect.ScrollTo	public/javascripts/effects.js	/^});$/;"	f
+Effect.Shake	public/javascripts/effects.js	/^};$/;"	f
+Effect.Shake.oldStyle.top	public/javascripts/effects.js	/^  var oldStyle = {$/;"	p
+Effect.Shrink	public/javascripts/effects.js	/^};$/;"	f
+Effect.Shrink.oldStyle.top	public/javascripts/effects.js	/^  var oldStyle = {$/;"	p
+Effect.SlideDown	public/javascripts/effects.js	/^};$/;"	f
+Effect.SlideUp	public/javascripts/effects.js	/^};$/;"	f
+Effect.Squish	public/javascripts/effects.js	/^};$/;"	f
+Effect.SwitchOff	public/javascripts/effects.js	/^};$/;"	f
+Element.collectTextNodes	public/javascripts/effects.js	/^};$/;"	f
+Element.collectTextNodesIgnoreClass	public/javascripts/effects.js	/^};$/;"	f
+Element.findChildren	public/javascripts/dragdrop.js	/^};$/;"	f
+Element.forceRerendering	public/javascripts/effects.js	/^};$/;"	f
+Element.getInlineOpacity	public/javascripts/effects.js	/^};$/;"	f
+Element.getStyles	public/javascripts/effects.js	/^if (document.defaultView && document.defaultView.getComputedStyle) {$/;"	f
+Element.isParent	public/javascripts/dragdrop.js	/^};$/;"	f
+Element.offsetSize	public/javascripts/dragdrop.js	/^};$/;"	f
+Element.setContentZoom	public/javascripts/effects.js	/^};$/;"	f
+Field.scrollFreeActivate	public/javascripts/controls.js	/^});$/;"	f
+J	public/javascripts/jquery.js	/^e(a[0],b):w}function J(){return(new Date).getTime()}function Y(){return false}function Z(){return true}function na(a,b,d){d[0].type=a;return c.event.handle.apply(b,d)}function oa(a){var b,d=[],f=[],e=arguments,j,i,o,k,n,r;i=c.data(this,"events");if(!(a.liveFired===this||!i||!i.live||a.button&&a.type==="click")){a.liveFired=this;var u=i.live.slice(0);for(k=0;k<u.length;k++){i=u[k];i.origType.replace(O,"")===a.type?f.push(i.selector):u.splice(k--,1)}j=c(a.target).closest(f,a.currentTarget);n=0;for(r=$/;"	f
+Note	app/models/note.rb	/^class Note < ActiveRecord::Base$/;"	c
+NoteController	app/controllers/note_controller.rb	/^class NoteController < ApplicationController$/;"	c
+NoteHelper	app/helpers/note_helper.rb	/^module NoteHelper$/;"	m
+Prototype.Browser	public/prototype.js	/^  Version: '1.7_rc2',$/;"	p
+Prototype.Version	public/prototype.js	/^var Prototype = {$/;"	p
+Qa	public/javascripts/jquery.js	/^(function(A,w){function ma(){if(!c.isReady){try{s.documentElement.doScroll("left")}catch(a){setTimeout(ma,1);return}c.ready()}}function Qa(a,b){b.src?c.ajax({url:b.src,async:false,dataType:"script"}):c.globalEval(b.text||b.textContent||b.innerHTML||"");b.parentNode&&b.parentNode.removeChild(b)}function X(a,b,d,f,e,j){var i=a.length;if(typeof b==="object"){for(var o in b)X(a,o,b[o],f,e,d);return a}if(d!==w){f=!j&&f&&c.isFunction(d);for(o=0;o<i;o++)e(a[o],b,f?d.call(a[o],o,e(a[o],b)):d,j);return a}return i?$/;"	f
+Sortable.SERIALIZE_RULE	public/javascripts/dragdrop.js	/^var Sortable = {$/;"	p
+SortableObserver	public/javascripts/dragdrop.js	/^var SortableObserver = Class.create({$/;"	v
+Str	public/prototype.js	/^  function Str(key, holder, stack) {$/;"	f
+String	public/javascripts/effects.js	/^\/\/ script.aculo.us effects.js v1.8.3, Thu Oct 08 11:23:33 +0200 2009$/;"	c
+String.parseColor	public/javascripts/effects.js	/^String.prototype.parseColor = function() {$/;"	m
+String.parseStyle	public/javascripts/effects.js	/^String.prototype.parseStyle = function(){$/;"	m
+TestController	app/controllers/test_controller.rb	/^class TestController < ApplicationController$/;"	c
+TestControllerTest	test/functional/test_controller_test.rb	/^class TestControllerTest < ActionController::TestCase$/;"	c
+TestHelper	app/helpers/test_helper.rb	/^module TestHelper$/;"	m
+TestHelperTest	test/unit/helpers/test_helper_test.rb	/^class TestHelperTest < ActionView::TestCase$/;"	c
+Try.these	public/prototype.js	/^var Try = {$/;"	m
+Type	public/prototype.js	/^  function Type(o) {$/;"	f
+User	app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
+UserController	app/controllers/user_controller.rb	/^class UserController < ApplicationController$/;"	c
+UserHelper	app/helpers/user_helper.rb	/^module UserHelper$/;"	m
+X	public/javascripts/jquery.js	/^(function(A,w){function ma(){if(!c.isReady){try{s.documentElement.doScroll("left")}catch(a){setTimeout(ma,1);return}c.ready()}}function Qa(a,b){b.src?c.ajax({url:b.src,async:false,dataType:"script"}):c.globalEval(b.text||b.textContent||b.innerHTML||"");b.parentNode&&b.parentNode.removeChild(b)}function X(a,b,d,f,e,j){var i=a.length;if(typeof b==="object"){for(var o in b)X(a,o,b[o],f,e,d);return a}if(d!==w){f=!j&&f&&c.isFunction(d);for(o=0;o<i;o++)e(a[o],b,f?d.call(a[o],o,e(a[o],b)):d,j);return a}return i?$/;"	f
+Y	public/javascripts/jquery.js	/^e(a[0],b):w}function J(){return(new Date).getTime()}function Y(){return false}function Z(){return true}function na(a,b,d){d[0].type=a;return c.event.handle.apply(b,d)}function oa(a){var b,d=[],f=[],e=arguments,j,i,o,k,n,r;i=c.data(this,"events");if(!(a.liveFired===this||!i||!i.live||a.button&&a.type==="click")){a.liveFired=this;var u=i.live.slice(0);for(k=0;k<u.length;k++){i=u[k];i.origType.replace(O,"")===a.type?f.push(i.selector):u.splice(k--,1)}j=c(a.target).closest(f,a.currentTarget);n=0;for(r=$/;"	f
+Z	public/javascripts/jquery.js	/^e(a[0],b):w}function J(){return(new Date).getTime()}function Y(){return false}function Z(){return true}function na(a,b,d){d[0].type=a;return c.event.handle.apply(b,d)}function oa(a){var b,d=[],f=[],e=arguments,j,i,o,k,n,r;i=c.data(this,"events");if(!(a.liveFired===this||!i||!i.live||a.button&&a.type==="click")){a.liveFired=this;var u=i.live.slice(0);for(k=0;k<u.length;k++){i=u[k];i.origType.replace(O,"")===a.type?f.push(i.selector):u.splice(k--,1)}j=c(a.target).closest(f,a.currentTarget);n=0;for(r=$/;"	f
+attemp_login	app/controllers/user_controller.rb	/^		def attemp_login$/;"	f	class:UserController
+c.fn.init	public/javascripts/jquery.js	/^function(b,d){return a.call(b,d,b)}))},end:function(){return this.prevObject||c(null)},push:ba,sort:[].sort,splice:[].splice};c.fn.init.prototype=c.fn;c.extend=c.fn.extend=function(){var a=arguments[0]||{},b=1,d=arguments.length,f=false,e,j,i,o;if(typeof a==="boolean"){f=a;a=arguments[1]||{};b=2}if(typeof a!=="object"&&!c.isFunction(a))a={};if(d===b){a=this;--b}for(;b<d;b++)if((e=arguments[b])!=null)for(j in e){i=a[j];o=e[j];if(a!==o)if(f&&o&&(c.isPlainObject(o)||c.isArray(o))){i=i&&(c.isPlainObject(i)||$/;"	c
+change	app/controllers/note_controller.rb	/^		def change$/;"	f	class:NoteController
+child.id	public/javascripts/dragdrop.js	/^      var child = {$/;"	p
+clone	public/prototype.js	/^  function clone(object) {$/;"	f
+create	app/controllers/note_controller.rb	/^		def create$/;"	f	class:NoteController
+create	app/controllers/user_controller.rb	/^		def create$/;"	f	class:UserController
+delete	app/controllers/note_controller.rb	/^		def delete$/;"	f	class:NoteController
+detail	app/controllers/note_controller.rb	/^		def detail$/;"	f	class:NoteController
+down	db/migrate/20140709102743_alert_user2.rb	/^  def down$/;"	f	class:AlertUser2
+down	db/migrate/20140710094705_alert_note.rb	/^  def down$/;"	f	class:AlertNote
+down	db/migrate/20140711032748_alert_user.rb	/^  def down$/;"	f	class:AlertUser
+down	db/migrate/20140711074957_alert_note1.rb	/^  def down$/;"	f	class:AlertNote1
+drop	public/javascripts/dragdrop.js	/^    var drop, affected = [];$/;"	v
+droponOptions	public/javascripts/dragdrop.js	/^    var droponOptions = Sortable.options(dropon);$/;"	v
+extend	public/prototype.js	/^  function extend(destination, source) {$/;"	f
+function.handleMethod	public/javascripts/rails.js	/^  function handleMethod(element) {$/;"	f
+function.handleRemote	public/javascripts/rails.js	/^  function handleRemote(element) {$/;"	f
+function.pa	public/javascripts/jquery.js	/^j.length;n<r;n++)for(k=0;k<u.length;k++){i=u[k];if(j[n].selector===i.selector){o=j[n].elem;f=null;if(i.preType==="mouseenter"||i.preType==="mouseleave")f=c(a.relatedTarget).closest(i.selector)[0];if(!f||f!==o)d.push({elem:o,handleObj:i})}}n=0;for(r=d.length;n<r;n++){j=d[n];a.currentTarget=j.elem;a.data=j.handleObj.data;a.handleObj=j.handleObj;if(j.handleObj.origHandler.apply(j.elem,e)===false){b=false;break}}return b}}function pa(a,b){return"live."+(a&&a!=="*"?a+".":"")+b.replace(\/\\.\/g,"`").replace(\/ \/g,$/;"	f
+function.qa	public/javascripts/jquery.js	/^"&")}function qa(a){return!a||!a.parentNode||a.parentNode.nodeType===11}function ra(a,b){var d=0;b.each(function(){if(this.nodeName===(a[d]&&a[d].nodeName)){var f=c.data(a[d++]),e=c.data(this,f);if(f=f&&f.events){delete e.handle;e.events={};for(var j in f)for(var i in f[j])c.event.add(this,j,f[j][i],f[j][i].data)}}})}function sa(a,b,d){var f,e,j;b=b&&b[0]?b[0].ownerDocument||b[0]:s;if(a.length===1&&typeof a[0]==="string"&&a[0].length<512&&b===s&&!ta.test(a[0])&&(c.support.checkClone||!ua.test(a[0]))){e=$/;"	f
+hashpassword	app/helpers/user_helper.rb	/^		def hashpassword(password)$/;"	f	class:UserHelper
+index	app/controllers/note_controller.rb	/^		def index$/;"	f	class:NoteController
+inspect	public/prototype.js	/^  function inspect(object) {$/;"	f
+isArray	public/prototype.js	/^  function isArray(object) {$/;"	f
+isElement	public/prototype.js	/^  function isElement(object) {$/;"	f
+isForm.isInput.Event.Handler	public/javascripts/rails.js	/^  if (!submitBubbles || !changeBubbles) {$/;"	c
+isForm.isInput.isForm.isInput.Event.Handler.initialize	public/javascripts/rails.js	/^    Event.Handler.prototype.initialize = Event.Handler.prototype.initialize.wrap($/;"	m
+isFunction	public/prototype.js	/^  function isFunction(object) {$/;"	f
+isHash	public/prototype.js	/^  function isHash(object) {$/;"	f
+isNumber	public/prototype.js	/^  function isNumber(object) {$/;"	f
+isString	public/prototype.js	/^  function isString(object) {$/;"	f
+isUndefined	public/prototype.js	/^  function isUndefined(object) {$/;"	f
+is_right?	app/helpers/user_helper.rb	/^		def is_right?$/;"	f	class:UserHelper
+keys	public/prototype.js	/^  function keys(object) {$/;"	f
+login_page	app/controllers/user_controller.rb	/^		def login_page$/;"	f	class:UserController
+login_user_filter	app/controllers/application_controller.rb	/^	def login_user_filter$/;"	f	class:ApplicationController
+logout	app/controllers/user_controller.rb	/^		def logout$/;"	f	class:UserController
+masterDelay	public/javascripts/effects.js	/^    var masterDelay = options.delay;$/;"	v
+na	public/javascripts/jquery.js	/^e(a[0],b):w}function J(){return(new Date).getTime()}function Y(){return false}function Z(){return true}function na(a,b,d){d[0].type=a;return c.event.handle.apply(b,d)}function oa(a){var b,d=[],f=[],e=arguments,j,i,o,k,n,r;i=c.data(this,"events");if(!(a.liveFired===this||!i||!i.live||a.button&&a.type==="click")){a.liveFired=this;var u=i.live.slice(0);for(k=0;k<u.length;k++){i=u[k];i.origType.replace(O,"")===a.type?f.push(i.selector):u.splice(k--,1)}j=c(a.target).closest(f,a.currentTarget);n=0;for(r=$/;"	f
+name	public/javascripts/dragdrop.js	/^    var name = encodeURIComponent($/;"	v
+new	app/controllers/note_controller.rb	/^		def new$/;"	f	class:NoteController
+new	app/controllers/user_controller.rb	/^		def new$/;"	f	class:UserController
+oa	public/javascripts/jquery.js	/^e(a[0],b):w}function J(){return(new Date).getTime()}function Y(){return false}function Z(){return true}function na(a,b,d){d[0].type=a;return c.event.handle.apply(b,d)}function oa(a){var b,d=[],f=[],e=arguments,j,i,o,k,n,r;i=c.data(this,"events");if(!(a.liveFired===this||!i||!i.live||a.button&&a.type==="click")){a.liveFired=this;var u=i.live.slice(0);for(k=0;k<u.length;k++){i=u[k];i.origType.replace(O,"")===a.type?f.push(i.selector):u.splice(k--,1)}j=c(a.target).closest(f,a.currentTarget);n=0;for(r=$/;"	f
+offsets	public/javascripts/dragdrop.js	/^    var offsets = dropon.cumulativeOffset();$/;"	v
+options_for_draggable.quiet	public/javascripts/dragdrop.js	/^      revert:      true,$/;"	p
+options_for_draggable.revert	public/javascripts/dragdrop.js	/^    var options_for_draggable = {$/;"	p
+options_for_droppable.overlap	public/javascripts/dragdrop.js	/^    var options_for_droppable = {$/;"	p
+options_for_tree.onHover	public/javascripts/dragdrop.js	/^    var options_for_tree = {$/;"	p
+partial	public/prototype.js	/^        var partial = [];$/;"	v
+pointer	public/javascripts/dragdrop.js	/^    var pointer = [Event.pointerX(event), Event.pointerY(event)];$/;"	v
+qa.K	public/javascripts/jquery.js	/^true;if(j=c.fragments[a[0]])if(j!==1)f=j}if(!f){f=b.createDocumentFragment();c.clean(a,b,f,d)}if(e)c.fragments[a[0]]=j?f:1;return{fragment:f,cacheable:e}}function K(a,b){var d={};c.each(va.concat.apply([],va.slice(0,b)),function(){d[this]=a});return d}function wa(a){return"scrollTo"in a&&a.document?a:a.nodeType===9?a.defaultView||a.parentWindow:false}var c=function(a,b){return new c.fn.init(a,b)},Ra=A.jQuery,Sa=A.$,s=A.document,T,Ta=\/^[^<]*(<[\\w\\W]+>)[^>]*$|^#([\\w-]+)$\/,Ua=\/^.[^:#\\[\\.,]*$\/,Va=\/\\S\/,$/;"	f
+qa.ra	public/javascripts/jquery.js	/^"&")}function qa(a){return!a||!a.parentNode||a.parentNode.nodeType===11}function ra(a,b){var d=0;b.each(function(){if(this.nodeName===(a[d]&&a[d].nodeName)){var f=c.data(a[d++]),e=c.data(this,f);if(f=f&&f.events){delete e.handle;e.events={};for(var j in f)for(var i in f[j])c.event.add(this,j,f[j][i],f[j][i].data)}}})}function sa(a,b,d){var f,e,j;b=b&&b[0]?b[0].ownerDocument||b[0]:s;if(a.length===1&&typeof a[0]==="string"&&a[0].length<512&&b===s&&!ta.test(a[0])&&(c.support.checkClone||!ua.test(a[0]))){e=$/;"	f
+qa.sa	public/javascripts/jquery.js	/^"&")}function qa(a){return!a||!a.parentNode||a.parentNode.nodeType===11}function ra(a,b){var d=0;b.each(function(){if(this.nodeName===(a[d]&&a[d].nodeName)){var f=c.data(a[d++]),e=c.data(this,f);if(f=f&&f.events){delete e.handle;e.events={};for(var j in f)for(var i in f[j])c.event.add(this,j,f[j][i],f[j][i].data)}}})}function sa(a,b,d){var f,e,j;b=b&&b[0]?b[0].ownerDocument||b[0]:s;if(a.length===1&&typeof a[0]==="string"&&a[0].length<512&&b===s&&!ta.test(a[0])&&(c.support.checkClone||!ua.test(a[0]))){e=$/;"	f
+qa.wa	public/javascripts/jquery.js	/^true;if(j=c.fragments[a[0]])if(j!==1)f=j}if(!f){f=b.createDocumentFragment();c.clean(a,b,f,d)}if(e)c.fragments[a[0]]=j?f:1;return{fragment:f,cacheable:e}}function K(a,b){var d={};c.each(va.concat.apply([],va.slice(0,b)),function(){d[this]=a});return d}function wa(a){return"scrollTo"in a&&a.document?a:a.nodeType===9?a.defaultView||a.parentWindow:false}var c=function(a,b){return new c.fn.init(a,b)},Ra=A.jQuery,Sa=A.$,s=A.document,T,Ta=\/^[^<]*(<[\\w\\W]+>)[^>]*$|^#([\\w-]+)$\/,Ua=\/^.[^:#\\[\\.,]*$\/,Va=\/\\S\/,$/;"	f
+root.children	public/javascripts/dragdrop.js	/^      parent: null,$/;"	p
+root.id	public/javascripts/dragdrop.js	/^    var root = {$/;"	p
+root.parent	public/javascripts/dragdrop.js	/^      id: null,$/;"	p
+s	public/javascripts/dragdrop.js	/^    var s = Sortable.sortables[element.id];$/;"	v
+show	app/controllers/test_controller.rb	/^  def show$/;"	f	class:TestController
+stringify	public/prototype.js	/^  function stringify(object) {$/;"	f
+test	app/helpers/user_helper.rb	/^		def test$/;"	f	class:UserHelper
+test_homepage	test/performance/browsing_test.rb	/^  def test_homepage$/;"	f	class:BrowsingTest
+toHTML	public/prototype.js	/^  function toHTML(object) {$/;"	f
+toJSON	public/prototype.js	/^  function toJSON(value) {$/;"	f
+toQueryString	public/prototype.js	/^  function toQueryString(object) {$/;"	f
+tt	app/helpers/test_helper.rb	/^		def tt$/;"	f	class:TestHelper
+up	db/migrate/20140709102743_alert_user2.rb	/^  def up$/;"	f	class:AlertUser2
+up	db/migrate/20140710094705_alert_note.rb	/^  def up$/;"	f	class:AlertNote
+up	db/migrate/20140711032748_alert_user.rb	/^  def up$/;"	f	class:AlertUser
+up	db/migrate/20140711074957_alert_note1.rb	/^  def up$/;"	f	class:AlertNote1
+update	app/controllers/note_controller.rb	/^		def update$/;"	f	class:NoteController
+values	public/prototype.js	/^  function values(object) {$/;"	f
+var.Effect._elementDoesNotExistError	public/javascripts/effects.js	/^var Effect = {$/;"	p
+wa.c	public/javascripts/jquery.js	/^true;if(j=c.fragments[a[0]])if(j!==1)f=j}if(!f){f=b.createDocumentFragment();c.clean(a,b,f,d)}if(e)c.fragments[a[0]]=j?f:1;return{fragment:f,cacheable:e}}function K(a,b){var d={};c.each(va.concat.apply([],va.slice(0,b)),function(){d[this]=a});return d}function wa(a){return"scrollTo"in a&&a.document?a:a.nodeType===9?a.defaultView||a.parentWindow:false}var c=function(a,b){return new c.fn.init(a,b)},Ra=A.jQuery,Sa=A.$,s=A.document,T,Ta=\/^[^<]*(<[\\w\\W]+>)[^>]*$|^#([\\w-]+)$\/,Ua=\/^.[^:#\\[\\.,]*$\/,Va=\/\\S\/,$/;"	f

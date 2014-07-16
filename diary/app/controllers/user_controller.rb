@@ -1,19 +1,22 @@
 # encoding: utf-8
 class UserController < ApplicationController
-		# 登录拦截器
-		before_filter :login_user_filter, :except => [:login_page,:attemp_login]
 
-		def new
+		include UserHelper
+		# 登录拦截器
+		before_filter :login_user_filter, :except => [:login_page,:attemp_login,:register,:create]
+
+		def register
 		end
 
 		#创建用户
 		def create
 				@user = User.new(params[:user])
 				if @user.save
-						render(:text => "success")
+						flash[:notice] = 'regist success'
 				else
-						render(:text => "failed")
+						flash[:notice] = 'regist failed'
 				end
+						render(:action => "register")
 		end
 
 		#跳转到登录界面
@@ -23,20 +26,35 @@ class UserController < ApplicationController
 		#登录逻辑
 		def attemp_login
 
-				@user = User.find_by_name(params[:name])
+				#@user = User.find_by_name(params[:name])
 
-				if @user
-						if @user.password == params[:password]
-								session[:user_id] = @user.id
-								session[:user_name] = @user.name
-								redirect_to(:controller => "note", :action => "index")
-						else
-								redirect_to(:action => "login_page")
-						end
+				#if @user
+				#		if @user.password == params[:password]
+				#				session[:user_id] = @user.id
+				#				session[:user_name] = @user.name
+				#				redirect_to(:controller => "note", :action => "index")
+				#		else
+				#				redirect_to(:action => "login_page")
+				#		end
+				#else
+				#		redirect_to(:action => "login_page")
+				#end
+
+				if is_right? == 1
+						flash[:msg] = 'name is blank!'
+						render(:action => 'login_page')
+				elsif is_right? == 2
+						flash[:msg] = 'password is blank!'
+						render(:action => 'login_page')
+				elsif is_right? == 3
+						redirect_to(:controller => "note", :action => "index")
+				elsif is_right? == 4
+						flash[:msg] = 'password is wrong!'
+						render(:action => 'login_page')
 				else
-						redirect_to(:action => "login_page")
+						flash[:msg] = 'use is not exsit!'
+						render(:action => 'login_page')
 				end
-
 		end
 
 		#退出

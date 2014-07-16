@@ -1,0 +1,18 @@
+<%= flash[:notice]%><br>
+<%if @user &&  @user.errors.size > 0%>
+		here is the reason:<br>
+<div style="width:300px;height:100px">
+		<ul>
+		<%@user.errors.full_messages.each do |msg|%>
+				<li><%= msg%></li>
+		<%end%>
+		</ul>
+	</div>
+	<%else%>
+			<%= link_to('GO Login',:action => 'login_page')%>
+<%end%>
+
+<%= form_for(:user, :url => {:action => "create"}) do |u|%>
+		<%= render(:partial => "form", :locals => {:u => u})%>	
+		<%= submit_tag("create")%>
+<%end%>
