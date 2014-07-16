@@ -1,4 +1,6 @@
+# encoding: utf-8
 class NoteController < ApplicationController
+
 
 		#自定义的layout
 		layout "myself_layout"

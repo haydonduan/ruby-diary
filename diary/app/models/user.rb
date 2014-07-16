@@ -1,7 +1,8 @@
 require 'digest/sha1'
 class User < ActiveRecord::Base
 
-	validates_presence_of :name, :message => "name is not be blank", :in => 4..10
+	validates_presence_of :name, :message => "name is not be blank"
+	validates_length_of :name, :in => 4..10
 	validates_uniqueness_of :name, :message => 'name is aready exists'
 	validates_presence_of :password, :message => "password is not be blank"
 

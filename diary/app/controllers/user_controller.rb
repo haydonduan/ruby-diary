@@ -12,7 +12,7 @@ class UserController < ApplicationController
 		def create
 				@user = User.new(params[:user])
 				if @user.save
-						flash[:notice] = 'regist success'
+						flash[:notice] = '注册成功'
 				else
 						flash[:notice] = 'regist failed'
 				end
