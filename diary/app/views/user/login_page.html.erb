@@ -1,0 +1,9 @@
+<h3>please login</h3>
+<%= render(:partial => "shared/error_messages", :locals => {:object => @user})%>
+<%= form_tag(:action => "attemp_login") do%>
+	<%= label_tag(:name)%>:
+	<%= text_field_tag(:name)%><br>
+	<%= label_tag(:password)%>:
+	<%= password_field_tag(:password)%><br>
+	<%= submit_tag("log in")%>
+<%end%>

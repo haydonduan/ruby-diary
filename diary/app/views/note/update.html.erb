@@ -1,0 +1,7 @@
+<%= render(:partial => "shared/error_messages", :locals => {:object => @note})%>
+<h2>update the diary</h2>
+
+<%=form_for(:note,:url => {:action => 'change',:id => @note.id}) do |n|%>
+		<%= render(:partial => "form",:locals => {:n => n})%>
+		<%= submit_tag("update")%>
+<%end%>

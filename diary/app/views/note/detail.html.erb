@@ -1,0 +1,13 @@
+<h3>view the detail</h3>
+
+<table border=1>
+		<tr><td>ID</td><td>title</td></tr>
+		<tr><td><%= @note.id%></td><td><%= @note.title%></td></tr>
+		<% text = @note.content%>
+		<tr><td>word_wrap</td><td><%= word_wrap(text,:line_width => 30)%></td></tr>
+		<tr><td>simple_format</td><td><%= simple_format(text)%></td></tr>
+		<tr><td>simple_format + word_wrap</td><td><%= simple_format(word_wrap(text,:line_width => 30))%></td></tr>
+		<tr><td>truncate</td><td><%= truncate(text,:length => 20,:omission => "...")%></td></tr>
+		<tr><td>excerpt</td><td><%= excerpt(text,"baidu",:radius => 3,:omission => "...")%></td></tr>
+		<tr><td>auto_link</td><td><%= auto_link(text)%></td></tr>
+</table>
