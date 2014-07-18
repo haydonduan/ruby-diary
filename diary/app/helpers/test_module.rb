@@ -1,21 +1,5 @@
-require 'digest/sha1'
-module UserHelper
-
-		public
-		def test
-				puts "ddddddd"
-		end
-
-		def hashpassword(password)
-			Digest::SHA1.hexdigest(password)
-		end
-
-		#1 用户名为空
-		#2 密码为空
-		#3 成功
-		#4 密码错误
-		#5 用户不存在
-		def is_right?
+  module Test
+  def right?
 				name = params[:name]
 				psw  = params[:password]
 				if name.blank?
@@ -38,4 +22,4 @@ module UserHelper
 						return 5
 				end	
 		end
-end
+  end
